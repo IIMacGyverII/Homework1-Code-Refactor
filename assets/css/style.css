@@ -8,22 +8,26 @@ body {
     background-color: #d9dcd6;
 }
 
-#header {
+/* changed to id */
+#header { 
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/* changed to class */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changed to class */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* changed from div to section */
 header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +36,12 @@ header section {
     font-size: 20px;
 }
 
+/* changed from div to section */
 header section ul {
     list-style-type: none;
 }
 
+/* changed from div to section */
 header section ul li {
     display: inline-block;
     margin-left: 25px;
@@ -50,6 +56,7 @@ p {
     font-size: 16px;
 }
 
+/* changed from class to id */
 #hero {
     height: 800px;
     width: 100%;
@@ -87,6 +94,7 @@ p {
     background-color: #2589bd;
 }
 
+/* consolidated multiple classes */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -104,7 +112,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* consolidated multiple classes */
 .hero1 {
     margin-bottom: 19px;
     margin-left: 20px;
@@ -122,6 +130,38 @@ p {
 .hero1 h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* used for link from header even
+though it doesn't do anything but I want
+to make sure every link would work if it could*/
+#search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* used for link from header */
+#online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* used for link from header*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 .footer {
