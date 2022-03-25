@@ -132,9 +132,7 @@ p {
     font-size: 36px;
 }
 
-/* used for link from header even
-though it doesn't do anything but I want
-to make sure every link would work if it could*/
+/* used for link from header */
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -155,7 +153,7 @@ to make sure every link would work if it could*/
 }
 
 /* used for link from header*/
-.social-media-marketing {
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
